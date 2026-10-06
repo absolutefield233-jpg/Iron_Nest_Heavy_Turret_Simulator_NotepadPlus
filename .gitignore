@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+
+# Editors
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local backups - the project compiles every .cs it can see, so stale copies
+# of the source must never be left lying around in here
+*.bak
+*.cs.bak
+*.old
+
+# Copies of the built mod that are staged for a release
+_releases/
